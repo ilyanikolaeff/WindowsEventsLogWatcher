@@ -1,0 +1,55 @@
+﻿<Window x:Class="WinEvtLogWatcher.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinEvtLogWatcher"
+        xmlns:userControls="clr-namespace:WinEvtLogWatcher.UserControls"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        mc:Ignorable="d"
+        Title="История событий" Height="200" Width="800">
+    <Grid>
+        <TextBlock Text="In developing... Maybe in future...." FontSize="48"/>
+        <!--<dxg:GridControl x:Name="gridControl"
+                         ItemsSource="{Binding CurrentLoadedEvents}"
+                         OptimizeSummaryCalculation="True"
+                         SelectionMode="None">
+            <dxg:GridControl.View>
+                <dxg:TableView x:Name="eventsTableView"
+                               AllowEditing="False"
+                               AllowSorting="True"
+                               AllowColumnFiltering="True"
+                               ShowFixedTotalSummary="True"
+                               ShowGroupPanel="True"
+                               BestFitMode="VisibleRows"
+                               ColumnFilterPopupMode="Excel"
+                               EnableSelectedRowAppearance="False"
+                               RowStyle="{StaticResource TableViewRowStyle}"
+                               ScrollViewer.ScrollChanged="eventsTableView_ScrollChanged">
+                </dxg:TableView>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Header="Время события" Width="Auto" Binding="{Binding TimeCreated, Converter={StaticResource dateTimeToStringConverter}}" FieldName="TimeCreated" />
+                <dxg:GridColumn Header="Имя компьютера" Width="Auto" Binding="{Binding MachineName}" FieldName="MachineName" />
+                <dxg:GridColumn Header="Источник события" Width="Auto" Binding="{Binding ProviderName}" FieldName="ProviderName" />
+                <dxg:GridColumn Header="Журнал" Width="Auto" Binding="{Binding LogName}" FieldName="LogName" />
+                <dxg:GridColumn Header="Описание события" Width="*" Binding="{Binding Description}" FieldName="Description" >
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings TextWrapping="WrapWithOverflow" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Header="Уровень события" Width="Auto" Binding="{Binding Level}" FieldName="Level" />
+                <dxg:GridColumn Header="Группа события" Width="Auto" Binding="{Binding LevelGroup}" FieldName="LevelGroup" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.GroupSummary>
+                <dxg:GridSummaryItem SummaryType="Count" />
+            </dxg:GridControl.GroupSummary>
+            <dxg:GridControl.TotalSummary>
+                <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" />
+            </dxg:GridControl.TotalSummary>
+        </dxg:GridControl>-->
+    </Grid>
+</Window>
