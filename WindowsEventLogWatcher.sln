@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinEvtLogWatcher", "WinEvtL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAgent", "ConsoleAgent\ConsoleAgent.csproj", "{13462BAB-DF7F-4DC6-866B-547AE775C1FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogReader", "LogReader\LogReader.csproj", "{BFC10B96-F70F-41F2-8BD9-1B988724E505}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{13462BAB-DF7F-4DC6-866B-547AE775C1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13462BAB-DF7F-4DC6-866B-547AE775C1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13462BAB-DF7F-4DC6-866B-547AE775C1FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFC10B96-F70F-41F2-8BD9-1B988724E505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFC10B96-F70F-41F2-8BD9-1B988724E505}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFC10B96-F70F-41F2-8BD9-1B988724E505}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFC10B96-F70F-41F2-8BD9-1B988724E505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
