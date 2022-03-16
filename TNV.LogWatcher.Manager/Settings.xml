@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MaxEventsToDisplay>1000</MaxEventsToDisplay>
+	<AutoSubscribeOnStartUp>true</AutoSubscribeOnStartUp>
+	<EventsDisplayPeriod>0</EventsDisplayPeriod>
+	<EnableMonitoringSound>true</EnableMonitoringSound>
+	<IsAlwaysOnTop>false</IsAlwaysOnTop>
+	<UseDarkTheme>true</UseDarkTheme>
+	<SoundSettings>
+		<SoundSettings LevelName="Critical" FileName="C:\Windows\Media\Alarm01.wav" IsCycle="true" />
+		<SoundSettings LevelName="Error" FileName="C:\Windows\Media\Alarm01.wav" IsCycle="true" />
+		<SoundSettings LevelName="Warning" FileName="" IsCycle="false" />
+		<SoundSettings LevelName="Informational" FileName="" IsCycle="false" />
+		<SoundSettings LevelName="Verbose" FileName="" IsCycle="false" />
+	</SoundSettings>
+	<ColorSettings>
+		<ColorSettings LevelName="Critical" Background="#00FF0000" Foreground="#FF000000" />
+		<ColorSettings LevelName="Error" Background="#00FF0000" Foreground="#FF000000" />
+		<ColorSettings LevelName="Warning" Background="#00FFFF00" Foreground="#FF000000" />
+		<ColorSettings LevelName="Informational" Background="#FF00FF00" Foreground="#FF000000" />
+		<ColorSettings LevelName="Verbose" Background="#FFFFFFFF" Foreground="#FF000000" />
+	</ColorSettings>
+	<ServiceAddress>127.0.0.1:65500</ServiceAddress>
+	<ServiceName>LogWatcher</ServiceName>
+</Settings>

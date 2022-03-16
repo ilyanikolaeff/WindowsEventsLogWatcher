@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ServiceAddress>127.0.0.1:65500</ServiceAddress>
+	<ServiceName>LogWatcher</ServiceName>
+	<EventCollectionTime>1000</EventCollectionTime>
+	<DiagInfoSendingInterval>5000</DiagInfoSendingInterval>
+	<QueryString>*[System[Level=1 or Level=2 or Level=3 or Level=4 or Level=5]]</QueryString>
+	<TryCreateCount>3</TryCreateCount>
+</Configuration>
